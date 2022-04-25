@@ -1,0 +1,67 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          172.5073242187489,
+          -43.65197548731144
+        ],
+        [
+          172.5073242187489,
+          -43.64402584769906
+        ],
+        [
+          172.51831054687386,
+          -43.64402584769906
+        ],
+        [
+          172.51831054687386,
+          -43.65197548731144
+        ],
+        [
+          172.5073242187489,
+          -43.65197548731144
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "name": "15-32086-20808",
+    "datetime": "2022-01-20T21:08:24.969Z",
+    "gsd": 0.07464553543474216,
+    "proj:epsg": 3857
+  },
+  "bbox": [
+    172.5073242187489,
+    -43.65197548731144,
+    172.51831054687386,
+    -43.64402584769906
+  ],
+  "id": "01FSWN35JY2PC7GMHEBXYART77/15-32086-20808",
+  "collection": "01FSWN35JY2PC7GMHEBXYART77",
+  "stac_version": "1.0.0-beta.2",
+  "stac_extensions": [
+    "projection"
+  ],
+  "links": [
+    {
+      "href": "s3://linz-basemaps/3857/selwyn_urban_2020-2021_0-075m_RGB/01FSWN35JY2PC7GMHEBXYART77/15-32086-20808.json",
+      "rel": "self"
+    },
+    {
+      "href": "collection.json",
+      "rel": "collection"
+    }
+  ],
+  "assets": {
+    "cog": {
+      "href": "15-32086-20808.tiff",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}
